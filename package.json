@@ -1,0 +1,20 @@
+{
+  "name": "electron_app",
+  "version": "1.0.0",
+  "description": "My first sample electron app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "npx electronmon --trace-warning ."
+  },
+  "keywords": [
+    "electron",
+    "reactjs",
+    "typescript"
+  ],
+  "author": "Sathwik",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^32.1.2"
+  }
+}
